@@ -11,6 +11,7 @@ RUN unzip /tmp/pb.zip -d /pb/
 
 COPY ./pocketbase/pb_migrations* /pb/pb_migrations
 COPY ./pocketbase/pb_hooks* /pb/pb_hooks
+COPY ./pocketbase/pb_public* /pb/pb_public
 
 EXPOSE 8090
 
